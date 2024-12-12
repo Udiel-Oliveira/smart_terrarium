@@ -1,0 +1,117 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    width: 100%;
+    background-color: #1A1A1A;
+  }
+  .nav ul{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .iconField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: #00805A;
+    border: 2px solid #00805A;
+    color: #034e38;
+  }
+  .nav a{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+    align-items: center;
+  }
+  .settings{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .navigation{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .perfilField{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+  }
+  .settings button{
+    background-color: #00805A;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+  }
+  .inputField{
+    display: flex;
+    align-items: stretch;
+    background-color: #fff;
+    padding: 4px 7px;
+    border-radius: 10px;
+    justify-content: space-between;
+  }
+  .inputField input{
+    background: transparent;
+    border: none;
+    width: 250px;
+    color: #000;
+    font-size: 16px;
+    outline: none;
+    padding-left: 10px;
+  }
+  .inputField button{
+    background-color: #00805A;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    border-radius: 6px;
+  }
+  .userImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #00805A;
+    border-radius: 100%;
+    background-color: #00805A;
+    color: #034e38;
+  }
+
+.active {
+    color: #034e38; /* Verde */
+    text-decoration: none;
+}
+
+.inactive {
+    color: #fff; /* Branco */
+    text-decoration: none;
+}
+
+.inactive:hover {
+    color: #ccc; /* Cinza claro para hover, se desejar */
+}
+
+.iconField {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

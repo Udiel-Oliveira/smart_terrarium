@@ -1,0 +1,41 @@
+.sensorItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .sensorCircle {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    border: 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    transition: border-color 0.3s ease, border-width 0.3s ease;
+  }
+  .sensorValue {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .sensorLabel {
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5px;
+  }
+  .icone{
+    background-color: #ffffff;
+    width: 50px;
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+  }

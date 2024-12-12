@@ -1,0 +1,392 @@
+.page {
+/*Box model stuff*/
+  width: 100%;
+  height: 100vh;
+}
+
+.main {
+/*Display stuff*/
+  display: flex;
+  flex-direction: column;
+/*Box model stuff*/
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #fff;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.banners {
+/*Display stuff*/
+  display: flex;
+/*Box model stuff*/
+  width: 100%;
+  height: 30%;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.banner1,
+.banner2 {
+/*Display stuff*/
+  display: flex;
+/*Box model stuff*/
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: linear-gradient(to right, #013A29, #03A071);
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.5s ease-in-out;
+}
+
+.banner2 {
+/*Display stuff*/
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner1 {
+/*Display stuff*/
+  flex: 2;
+  justify-content: space-around;
+}
+
+.banner1 h2 {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+/*Box model stuff*/
+  width: 40%;
+  height: 100%;
+/*Typography stuff*/
+  font-size: 2rem;
+}
+
+.content {
+/*Display stuff*/
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+/*Box model stuff*/
+  width: 100%;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.filterContainer {
+/*Display stuff*/
+  display: flex;
+  justify-content: space-between;
+/*Box model stuff*/
+  width: 100%;
+}
+
+.filters {
+/*Display stuff*/
+  display: flex;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.filters button:nth-child(1) {
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.9s ease-in-out;
+/*Miscellaneous*/
+  cursor: pointer;
+}
+
+.filters button:nth-child(2) {
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.6s ease-in-out;
+/*Miscellaneous*/
+  cursor: pointer;
+}
+
+.filters button:nth-child(3) {
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.3s ease-in-out;
+/*Miscellaneous*/
+  cursor: pointer;
+}
+
+.filters div {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 100px;
+  height: 100%;
+  border-radius: 5px;
+/*Typography stuff*/
+  font-size: 20px;
+}
+
+.swiperControl {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Miscellaneous*/
+  gap: 1rem;
+
+}
+
+.swiperControl button {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 10px;
+  background-color: #a6a6a6;
+/*Typography stuff*/
+  font-size: 20px;
+  color: #C0C0C0;
+}
+
+.cardContainer {
+/*Display stuff*/
+  flex: 1;
+/*Box model stuff*/
+  width: 100%;
+}
+
+.filterBtn {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+/*Box model stuff*/
+  width: 100%;
+  height: 100%;
+  border: none;
+  border: 5px solid transparent;
+  border-radius: 10px;
+  background-color: #a6a6a6;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.filterBtn:hover {
+/*Box model stuff*/
+  background-color: #034e38;
+/*Manipulations stuff*/
+  transition: all 0.5s ease-in-out;
+}
+
+.iconFielde {
+/*Display stuff*/
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 25px;
+  height: 25px;
+  background-color: #03A071;
+}
+
+.icone {
+/*Typography stuff*/
+  font-size: 20px;
+}
+
+.title {
+/*Display stuff*/
+  display: flex;
+  flex: 3;
+  align-items: center;
+}
+
+.active {
+/*Box model stuff*/
+  border: 5px solid #0fc790;
+  background-color: #034e38;
+/*Typography stuff*/
+  color: white;
+/*Miscellaneous*/
+  /* Verde */
+}
+
+.inactive {
+/*Box model stuff*/
+  background-color: #04674a;
+/*Typography stuff*/
+  color: #fff;
+/*Miscellaneous*/
+  /* Cinza */
+}
+
+.cardContainer {
+/*Display stuff*/
+  display: flex;
+/*Box model stuff*/
+  width: 100%;
+/*Miscellaneous*/
+  gap: 1rem;
+}
+
+.card,
+.card2 {
+/*Display stuff*/
+  display: flex;
+  flex-direction: column;
+/*Box model stuff*/
+  width: 350px;
+  height: 100%;
+  padding: 1.5rem;
+  border-radius: 20px;
+  background: white;
+/*Typography stuff*/
+  text-align: center;
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.9s ease-in-out;
+/*Miscellaneous*/
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card2 {
+/*Manipulations stuff*/
+  animation: aparecer forwards 0.9s ease-in-out;
+}
+
+.card2 .cardView {
+/*Display stuff*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 100%;
+/*Miscellaneous*/
+  gap: 2rem;
+}
+
+.card2 .plantName {
+/*Display stuff*/
+  flex: 1;
+/*Typography stuff*/
+  color: #C0C0C0;
+}
+
+.cardView {
+/*Display stuff*/
+  flex: 3;
+/*Box model stuff*/
+  height: 100%;
+}
+
+.plantImage {
+/*Display stuff*/
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+.plantName {
+/*Typography stuff*/
+  text-align: start;
+  color: #000;
+}
+
+.cardControl {
+/*Display stuff*/
+  display: flex;
+  flex: 0.8;
+  align-items: flex-end;
+  justify-content: space-between;
+/*Box model stuff*/
+  height: 100%;
+}
+
+.situation {
+/*Display stuff*/
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.situation span:nth-last-child(2) {
+/*Typography stuff*/
+  color: #000;
+}
+
+.situation span:nth-last-child(1) {
+/*Box model stuff*/
+  padding: 5px 25px;
+  border-radius: 10px;
+  background: #03A071;
+/*Typography stuff*/
+  font-size: 15px;
+}
+
+.buttonContainer {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #a6a6a6;
+/*Manipulations stuff*/
+  transition: all 0.5s ease-in-out;
+}
+
+.buttonContainer:hover {
+/*Box model stuff*/
+  background-color: #000;
+}
+
+.cardBtn {
+/*Display stuff*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 35px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+}
+
+.iconContainer {
+/*Display stuff*/
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+/*Box model stuff*/
+  width: 80%;
+  height: 80%;
+  border-radius: 100%;
+  background-color: #C0C0C0;
+/*Typography stuff*/
+  font-size: 80px;
+}
+
+@keyframes aparecer {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
