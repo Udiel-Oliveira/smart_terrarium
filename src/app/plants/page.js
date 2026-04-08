@@ -9,10 +9,14 @@ import { faSun, faTemperature0, faWater } from '@fortawesome/free-solid-svg-icon
 
 export default function PlantDetails() {
   // Estado para armazenar os dados da planta
-  const [plantData, setPlantData] = useState(null);
+  const [plantData, setPlantData] = useState({
+    soil_moisture: 20,
+    illumination: 30,
+    temperature: 10
+  });
 
   // Função para buscar dados da planta
-  
+  /*
   useEffect(() => {
     async function fetchPlantData() {
       try {
@@ -28,7 +32,7 @@ export default function PlantDetails() {
     }
     fetchPlantData();
   }, []);
-
+*/
   // Estado de carregamento
   if (!plantData) {
     return (
@@ -134,7 +138,7 @@ export default function PlantDetails() {
       <main className={styles.main}>
         <div className={styles.name}>
           <h1 className={styles.plantName}>Suculenta</h1>
-          <span className={styles.statusText}>Saudavel</span>
+          <span className={styles.statusText}>Atenção</span>
         </div>
         <div className={styles.content}>
           <div className={styles.item1}>

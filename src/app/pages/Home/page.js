@@ -20,7 +20,7 @@ import {
 
 const PLANT_DATA = {
   Quarto: [
-      { id: 1 ,name: "Suculenta", status: "Saudável", backgroundImage: "/assets/plantImage.png" },
+      { id: 1 ,name: "Suculenta", status: "Atenção", backgroundImage: "/assets/plantImage.png" },
   ],
   Sala: [
 ],
